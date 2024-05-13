@@ -108,8 +108,9 @@ Below are some basic options:
 * -v: output the graph in .csv and .pdf format
 * -p: perform deep trimming on the attack graph to improve visualization (SHOULD NOT BE INVOKED IN PRODUCTION USE)
 * --nometric: do not show the metric information
+* --simple: generate the attack graph where the nodes are numbers and the node descriptions are in AttackGraph.txt
 
 ### Notes ###
 
-1. Avoid using non-alphanumeric characters when passing parameters. Characters to avoid include: colons ":". But it is probably not an exhaustive list)
+1. Avoid using non-alphanumeric characters when passing parameters. Characters to avoid include: colons ":", dot ".", hyphen "-", comma ",". But it is probably not an exhaustive list)
 2. Rule descriptions **MUST NOT** be void, or MulVal will just take one randomly (?)
